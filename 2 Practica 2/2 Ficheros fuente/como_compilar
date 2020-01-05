@@ -1,0 +1,3 @@
+as -o saludo.o saludo.s
+ld -s -o saludo saludo.o
+./saludo

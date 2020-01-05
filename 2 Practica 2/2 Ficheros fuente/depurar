@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo 'Introduzca el nombre del .s: '
+read var
+
+as -g $var.s -o $var.o
+ld $var.o -o $var -lc -dynamic-linker /lib64/ld-linux-x86-64.so.2
+

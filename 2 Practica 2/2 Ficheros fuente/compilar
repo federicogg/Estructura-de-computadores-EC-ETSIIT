@@ -1,0 +1,5 @@
+#!/bin/bash
+
+
+
+gcc media.s -o media -no-pie
